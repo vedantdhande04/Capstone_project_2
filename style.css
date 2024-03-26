@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@500&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@500&family=Rubik:ital,wght@1,300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.landing{
+    background-color: black;
+    background-image: url(./landing.jpg);
+    background-size: 100% 100%; 
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hello{
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 74px;
+    margin-bottom: 35px;
+}
+.sub{
+    display: block;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 0;
+    font-size: calc(74px * 0.6);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.pro{
+    text-decoration: underline;
+}
+
+.about{
+    background-color: #0F143E;
+    background-image: linear-gradient(180deg, #0F143E, rgb(0, 0, 0) );
+    background-size: 100% 100%; 
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.main{
+    border-radius: 50%;
+    height: 250px;
+}
+
+.hi{
+    color: #66BFBF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+.details{
+    color: #499ed7;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.py-0{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+}
+
+.nav-link{
+    color: white !important;
+}
+.text-center{
+    margin-bottom: 0;
+    color: white !important;
+
+}
+
+.skill{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.skilltext{
+    color: white;
+}
+.skillbox{
+    margin-bottom: 60px;
+}
+.touch{
+    background-color: black;
+    background-size: 100% 100%; 
+    height: 80vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.getin{
+    color: #66BFBF;
+    font-size: 60px;
+}
+.contact{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
